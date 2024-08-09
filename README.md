@@ -9,7 +9,7 @@ The whole process is splitted into 3 parts: speech2unit, language modeling, and 
 
 ## Download checkpoint
 ```sh
-gdown 
+gdown 1b2niOM0haS_7k_6X4jD405-qC06O00pP
 tar zxvf ckpt.tar.gz
 ```
 
