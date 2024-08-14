@@ -16,7 +16,7 @@ tar zxvf ckpt.tar.gz
 ## Speech2unit
 We use text and speech units interleaving sequence to represent speech signals, so we should use HuBERT to quantize waveform, and insert its transcription in between the HuBERT units.
 ```sh
-pip install fast_whisper
+pip install faster-whisper
 # fp16 might result in some difference in generated units compared to fp32
 python speech2unit.py \
     --input_audio <audio_path> \
